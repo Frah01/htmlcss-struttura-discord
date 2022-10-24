@@ -3,12 +3,10 @@
     margin: 0 auto;
     box-sizing: border-box;
 }
-
+/*INIZIO STRUTTURA HEADER*/
 header {
     background-color: lightblue;
-    width: 100%;
-    
-   
+    width: 100%; 
 }
 
 .nav-row {
@@ -23,16 +21,12 @@ header {
     width: 25%;
     height: 40px;
     background-color: orange;
-    display: flex;
-    justify-content: space-around;
 }
 
 .nav-column-mid {
     width: 50%;
     height: 40px;
     background-color: orange;
-    display: flex;
-    justify-content: space-around;
 }
 
 .section-header {
@@ -53,12 +47,11 @@ header {
     width: 100%;
     height: 300px;
     background-color: plum;
-    display: flex;
-    justify-content: space-around;
 }
 
+/*FINE STRUTTURA HEADER*/
 
-
+/*INIZIO STRUTTURA MAIN*/
 .first-section-main {
     background-color: white;
     width: 100%;
@@ -76,16 +69,12 @@ header {
     width: 60%;
     height: 400px;
     background-color: deepskyblue;
-    display: flex;
-    justify-content: space-around;
 }
 
 .column2-section1-main {
     width: 40%;
     height: 400px;
     background-color: palevioletred;
-    display: flex;
-    justify-content: space-around;
 }
 
 .second-section-main {
@@ -106,14 +95,58 @@ header {
     width: 40%;
     height: 400px;
     background-color: palevioletred;
-    display: flex;
-    justify-content: space-around;
 }
 
 .column2-section2-main {
     width: 60%;
     height: 400px;
     background-color: deepskyblue;
+}
+
+.fourth-section-main {
+    background-color: lightgrey;
+    width: 100%;
+    height: 800px;
+}
+
+.row-fourth-section {
+    max-width: 70%;
+    height: 800px;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+}
+
+.column-fourth-section {
+    width: 100%;
+    height: 700px;
+    background-color: green;
+    display: flex;
+}
+
+.fifth-section-main {
+    background-color: rgb(56, 55, 55);
+    width: 100%;
+    height: 800px;
+}
+
+.row-fifth-section {
+    max-width: 70%;
+    height: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.column-fifth-section-lg{
+    width: 40%;
+    height: 700px;
+    background-color: pink;
+
+}
+
+.column-fifth-section-sm {
+    width: 15%;
+    height: 700px;
+    background-color: cyan;
 }
