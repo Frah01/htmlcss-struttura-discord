@@ -65,7 +65,7 @@ header {
     height: 500px;
 }
 .row-section1-main {
-    max-width: 50%;
+    max-width: 70%;
     margin: 0 auto;
     height: 500px;
     display: flex;
@@ -80,10 +80,40 @@ header {
     justify-content: space-around;
 }
 
-.column2-section2-main {
+.column2-section1-main {
     width: 40%;
     height: 400px;
     background-color: palevioletred;
+    display: flex;
+    justify-content: space-around;
+}
+
+.second-section-main {
+    background-color: lightgrey;
+    width: 100%;
+    height: 500px;
+}
+
+.row-section2-main {
+    max-width: 70%;
+    margin: 0 auto;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.column1-section2-main {
+    width: 40%;
+    height: 400px;
+    background-color: palevioletred;
+    display: flex;
+    justify-content: space-around;
+}
+
+.column2-section2-main {
+    width: 60%;
+    height: 400px;
+    background-color: deepskyblue;
     display: flex;
     justify-content: space-around;
 }
