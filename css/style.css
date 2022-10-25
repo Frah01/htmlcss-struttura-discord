@@ -31,13 +31,13 @@ header {
 
 .container-section-header {
     width: 100%;
-    height: 400px;
+    
     background-color: rgb(3, 3, 163);
 }
 
 .row-section-header {
     max-width: 50%;
-    height: 400px;
+    padding: 20px 0px 20px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -55,12 +55,12 @@ header {
 .container-first-section-main {
     background-color: white;
     width: 100%;
-    height: 500px;
+    
 }
 .row-section1-main {
     max-width: 70%;
     margin: 0 auto;
-    height: 500px;
+    padding: 30px 0px 30px;
     display: flex;
     align-items: center;
 }
@@ -80,13 +80,12 @@ header {
 .container-second-section-main {
     background-color: lightgrey;
     width: 100%;
-    height: 500px;
 }
 
 .row-section2-main {
     max-width: 70%;
     margin: 0 auto;
-    height: 500px;
+    padding: 30px 0px 30px;
     display: flex;
     align-items: center;
 }
@@ -106,12 +105,12 @@ header {
 .container-fourth-section-main {
     background-color: lightgrey;
     width: 100%;
-    height: 800px;
+    
 }
 
 .row-fourth-section {
     max-width: 70%;
-    height: 800px;
+    padding: 30px 0px 30px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -127,12 +126,12 @@ header {
 .container-fifth-section-main {
     background-color: rgb(56, 55, 55);
     width: 100%;
-    height: 800px;
+    
 }
 
 .row-fifth-section {
     max-width: 70%;
-    height: 800px;
+    padding: 30px 0px 30px;
     margin: 0 auto;
     display: flex;
     align-items: center;
